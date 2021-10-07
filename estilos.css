@@ -1,0 +1,49 @@
+body{
+	padding: 0rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: 4rem;
+}
+
+#hamburguesa{
+	font-size: 2.5rem;
+  	font-weight: bold;
+}
+
+#header{
+  	height: 3.5cm;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: rgb(22, 148, 207);
+}
+
+ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+}
+
+.checkoff{
+  display: none;
+}
+
+
+label {
+	border: none;
+	border-radius: 5px;
+	user-select: none;
+	text-align: right;
+	font-style: normal;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+	display: block;
+}
+
+
+
